@@ -8,7 +8,7 @@ public class Main {
 
         Representant r = new Representant(36, "Bastide", "Rémi", occitanie);
 
-        r.setSalaireFixe(1000f);
+        r.setSalaireFixe(50000f);
 
         r.enregistrerCA(0, 10000.00f);
 
@@ -21,4 +21,4 @@ public class Main {
     }
 
 }
-// Attention attention grosse modif' en cours la
+// Attention attention grosse modif
