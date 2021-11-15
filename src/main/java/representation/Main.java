@@ -8,11 +8,12 @@ public class Main {
 
         Representant r = new Representant(36, "Bastide", "Rémi", occitanie);
 
-        r.setSalaireFixe(50000f);
+        r.setSalaireFixe(667f);
+
 
         r.enregistrerCA(0, 10000.00f);
 
-        float salaire = r.salaireMensuel(0, 0.1f);
+        float salaire = 3 * r.salaireMensuel(0, 0.1f);
 
         // printf, voir :
         // http://alvinalexander.com/programming/printf-format-cheat-sheet
@@ -21,4 +22,7 @@ public class Main {
     }
 
 }
-// Attention attention grosse modif
+
+// Attention attention grosse modif' en cours la
+// Pas ouf la modif
+
